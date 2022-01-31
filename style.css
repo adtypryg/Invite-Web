@@ -23,7 +23,7 @@ body {
 }
 
 .welcome-page__image img {
-  width: 350px;
+  height: 35vh;
 }
 
 .welcome-page__name {
@@ -32,7 +32,7 @@ body {
   align-items: center;
   font-family: 'Fuggles', cursive;
   /* border: 1px solid red; */
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   height: 10rem;
 }
 
@@ -41,12 +41,12 @@ body {
   position: relative;
 }
 .welcome-page__name .feni{
-  font-size: 6rem;
+  font-size: 5rem;
   left: -4rem;
   top: 0rem;
 }
 .welcome-page__name .yoga {
-  font-size: 5rem;
+  font-size: 4.2rem;
   right: -4rem;
   bottom: 5rem;
 }
@@ -72,11 +72,11 @@ body {
 
 .welcome-page .buka-undangan {
   color: antiquewhite;
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 0.2rem;
   border: none;
   background-color: #6f8560;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 1rem;
 }
 
@@ -93,14 +93,14 @@ body {
 }
 
 .page1__image img {
-  width: 250px;
+  height: 30vh;
 }
 
 .page1__name {
   display: flex;
   align-items: baseline;
   font-weight: lighter;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .page1__name .feni, .page1__name .yoga {
@@ -109,32 +109,32 @@ body {
   margin: 0 1rem;
 }
 .page1__name .feni {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .page1__name .yoga {
-  font-size: 4rem;
+  font-size: 3.4rem;
 }
 .page1__name .and {
   color: #aeaeae;
 }
 
 .page1__tanggal {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bolder;
   color: #aeaeae;
-  margin-bottom: 3rem;
+  margin-bottom: 10vh;
 }
 
 .page1__bismillah img {
-  width: 8rem;
-  margin-bottom: 0.2rem;
+  height: 8vh;
+  margin-bottom: 0.1rem;
 }
 
 .page1__sentence {
   padding: 0 3rem;
   text-align: center;
   font-size: 0.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 .page1__countdown {
@@ -183,11 +183,12 @@ body {
   width: 100vw;
   padding: 0 3rem;
   align-items: center;
+  justify-content: center;
   margin-bottom: 1.5rem;
 }
 
 .page2__container1 img {
-  width: 200px;
+  height: 20vh;
 }
 
 .page2__container1 h1 {
@@ -195,11 +196,11 @@ body {
   font-weight: lighter;
 }
 .page2__container1 .feni {
-  font-size: 6rem;
+  font-size: 5rem;
   margin-left: 1rem;
 }
 .page2__container1 .yoga {
-  font-size: 5rem;
+  font-size: 4.3rem;
   margin-right: 1rem;
 }
 
@@ -207,15 +208,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 1.6rem;
 }
 
 .page2__container2 h3,
 .page2__container2 h4 {
   color: #aeaeae;
+  font-size: 1rem;
 }
 
 
 .page2__dengan {
-  margin: 3rem auto;
+  margin: 5vh auto;
 }
