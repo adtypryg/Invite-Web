@@ -15,6 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
+  z-index: 2;
   top: 0;
   left: 0;
   display: flex;
@@ -30,7 +31,7 @@ body {
   height: 35vh;
   transform: translateY(-50vh);
   opacity: 0;
-  animation: welcome-page-animation 3s ease forwards;
+  animation: welcome-page-animation 2s ease forwards;
 }
 
 .welcome-page__name {
@@ -117,6 +118,12 @@ body {
 
 .page1__image img {
   height: 30vh;
+
+  transform: translateY(-10vh);
+  opacity: 0;
+}
+.page1__image img.opened {
+  animation: page1-animation 1s 1.5s forwards;
 }
 
 .page1__name {
@@ -124,6 +131,12 @@ body {
   align-items: baseline;
   font-weight: lighter;
   margin-bottom: 1rem;
+
+  transform: translateY(5vh);
+  opacity: 0;
+}
+.page1__name.opened {
+  animation: page1-animation 1s 1.5s forwards;
 }
 
 .page1__name .feni, .page1__name .yoga {
@@ -146,11 +159,22 @@ body {
   font-weight: bolder;
   color: #aeaeae;
   margin-bottom: 10vh;
+
+  transform: translateY(5vh);
+  opacity: 0;
+}
+.page1__tanggal.opened {
+  animation: page1-animation 1s 2s forwards;
 }
 
 .page1__bismillah img {
   height: 8vh;
   margin-bottom: 0.1rem;
+
+  transform: translateX(-100vw);
+}
+.page1__bismillah img.opened {
+  animation: page1-animation2 1s 1.5s forwards;
 }
 
 .page1__sentence {
@@ -158,6 +182,11 @@ body {
   text-align: center;
   font-size: 0.8rem;
   margin-bottom: 1.4rem;
+
+  transform: translateX(100vw);
+}
+.page1__sentence.opened {
+  animation: page1-animation2 1s 1.5s forwards;
 }
 
 .page1__countdown {
@@ -188,6 +217,19 @@ body {
   font-size: 0.8rem;
 }
 
+
+/* Animation Page 1 */
+@keyframes page1-animation {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes page1-animation2 {
+  to {
+    transform: translateX(0);
+  }
+}
 
 
 /* Page 2 */
