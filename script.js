@@ -34,7 +34,7 @@ const viewHeight = visualViewport.height;
 
 window.addEventListener('scroll', e => {
   // console.log(window.pageYOffset);
-  if (window.scrollY > 0.5 * viewHeight){
+  if (window.scrollY > 0.7 * viewHeight){
     avaFeni.style.transform = 'translate(0, 0)';
     avaFeni.style.opacity = '1';
     nameFeni.style.transform = 'translate(0, 0)';
@@ -43,7 +43,7 @@ window.addEventListener('scroll', e => {
     nameWali[0].style.opacity = '1';
   };
 
-  if (window.scrollY > 0.75 * viewHeight){
+  if (window.scrollY > 0.85 * viewHeight){
     avaYoga.style.transform = 'translate(0, 0)';
     avaYoga.style.opacity = '1';
     nameYoga.style.transform = 'translate(0, 0)';
