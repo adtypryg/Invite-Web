@@ -87,11 +87,11 @@ body {
 .welcome-page .buka-undangan {
   color: antiquewhite;
   font-size: 0.8rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   border: none;
   background-color: #6f8560;
-  padding: 0.8rem;
-  border-radius: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.8rem;
 }
 
 /* Transition Welcome Page */
@@ -311,7 +311,7 @@ body {
 .page2__container1 .ava-yoga.scrolled,
 .page2__container1 .feni.scrolled,
 .page2__container1 .yoga.scrolled,
-.page2__container2 {
+.page2__container2.scrolled {
   transform: translate(0, 0);
   opacity: 1;
 }
@@ -388,11 +388,15 @@ body {
 }
 .page5 #fhadir {
   font-size: 1rem;
+  width: 50%;
   padding: 0.4rem;
   border: 1px #6f8560 solid;
   border-radius: 0.6rem;
   background-color: whitesmoke;
   margin-bottom: 5%;
+}
+.page5 #fhadir option {
+  font-size: 0.7rem;
 }
 .page5__form #fpesan {
   width: 100%;
@@ -411,4 +415,23 @@ body {
   height: 55%;
   width: 100%;
   border: 1px #6f8560 solid;
+}
+
+
+/* Footer */
+footer {
+  background-image: url("img/bg1.jpg");
+  width: 100vw;
+  overflow-x: hidden;
+  color: #aeaeae;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+footer p:nth-child(1) {
+  border-top: #6f8560 3px solid;
+  padding-top: 1rem;
+}
+footer span{
+  font-weight: bold;
 }

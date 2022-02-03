@@ -41,7 +41,7 @@ window.addEventListener('scroll', e => {
   if (window.scrollY > 0.7 * viewHeight){
     avaFeni.classList.add('scrolled');
     nameFeni.classList.add('scrolled');
-    nameWali[1].classList.add('scrolled');
+    nameWali[0].classList.add('scrolled');
   };
 
   if (window.scrollY > 0.85 * viewHeight){
