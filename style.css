@@ -269,12 +269,6 @@ body {
   opacity: 0;
   transition: 2s;
 }
-.page2__container1 .ava-feni.scrolled,
-.page2__container1 .ava-yoga.scrolled {
-  transform: translate(0, 0);
-  opacity: 1;
-}
-
 
 .page2__container1 h1 {
   font-family: 'Fuggles', cursive;
@@ -311,6 +305,15 @@ body {
   font-size: 1rem;
   text-align: center;
   padding: 0 0.8rem;
+}
+
+.page2__container1 .ava-feni.scrolled,
+.page2__container1 .ava-yoga.scrolled,
+.page2__container1 .feni.scrolled,
+.page2__container1 .yoga.scrolled,
+.page2__container2 {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 
