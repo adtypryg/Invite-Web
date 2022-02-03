@@ -1,3 +1,9 @@
+const namaUndangan = document.querySelector(".welcome-page__undangan");
+const param = new URLSearchParams(window.location.search).get('u');
+
+namaUndangan.innerHTML = param;
+
+
 const welcomePage = document.querySelector(".welcome-page");
 const page1Image = document.querySelector(".page1__image img");
 const page1Name = document.querySelector(".page1__name");
@@ -28,7 +34,7 @@ const avaYoga = document.querySelector(".page2__container1 .ava-yoga");
 const nameYoga = document.querySelector(".page2__container1 .yoga");
 const nameWali = document.querySelectorAll(".page2__container2");
 
-console.log(nameWali[0]);
+// console.log(nameWali[0]);
 
 const viewHeight = visualViewport.height;
 

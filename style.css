@@ -80,6 +80,8 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 2rem;
+  text-align: center;
+  padding: 0 1.6rem;
 }
 
 .welcome-page .buka-undangan {
@@ -317,4 +319,93 @@ body {
 }
 .page2__dengan img {
   width: 50vw;
+}
+
+
+
+
+
+
+
+
+/* Page 5 */
+.page5 {
+  background-image: url("img/bg1.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.page5-container {
+  /* border: 1px red solid; */
+  height: 95vh;
+  width: 92vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page5__form {
+  height: 40%;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  /* border: 1px solid red; */
+}
+.page5 form {
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid red; */
+}
+.page5__judul-form {
+  margin-bottom: 5%;
+  text-align: center;
+}
+.page5 #fnama, 
+.page5 label, 
+.page5 #fhadir, 
+.page5 #fpesan {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.page5 #fnama {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-bottom: 5%;
+  border: 1px #6f8560 solid;
+  border-radius: 0.6rem;
+  background-color: whitesmoke;
+}
+.page5 label {
+  margin-bottom: 2%;
+}
+.page5 #fhadir {
+  font-size: 1rem;
+  padding: 0.4rem;
+  border: 1px #6f8560 solid;
+  border-radius: 0.6rem;
+  background-color: whitesmoke;
+  margin-bottom: 5%;
+}
+.page5__form #fpesan {
+  width: 100%;
+  height: 40%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-bottom: 5%;
+  border: 1px #6f8560 solid;
+  border-radius: 0.6rem;
+  background-color: whitesmoke;
+}
+
+.page5-container__pesan {
+  border-radius: 1rem;
+  background-color: whitesmoke;
+  height: 55%;
+  width: 100%;
+  border: 1px #6f8560 solid;
 }
